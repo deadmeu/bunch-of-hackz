@@ -1,0 +1,170 @@
+body{
+  background: #2A2725 url("images/bghexagon.png") repeat;
+  font-family: 'Lato', 'sans-serif';
+  font-size: 100%;
+  font color: white;
+  font-weight: normal;
+  overflow: none;
+  opacity: 1;
+}
+
+h2{
+  font-family: 'Lato', 'sans-serif';
+  font-size: 220%;
+  font-weight: normal;
+}
+
+.maintext{
+  text-align: center;
+  padding-left: 4%;
+}
+
+.sidetext{
+  text-align: left;
+  padding-left: 4%;
+}
+
+.banner{
+  background: url("images/boh_banner.png") no-repeat center;
+  width: 100%;
+  height: 100%;
+  /*min-height: 198px;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.highlight{
+  position: fixed;
+  left: 12.5%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 75%;
+  background-color: rgba(155, 148, 140, 0.35);
+  height: 82.3%;
+  margin: 105px auto;
+  padding-top: 3px;
+  padding-right: 3px;
+  padding-bottom: 1px;
+}
+
+.content{
+  /*position: relative;*/
+  /*border-top-left-radius: 10px;
+  border-top-right-radius: 10px;*/
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 100%;
+  /*margin: 105px auto;*/
+  color: white;
+  overflow: auto;
+  /*overflow-x: hidden;*/
+}
+
+.header{
+  height: 149px;
+  width: 410px;
+  margin: 0px auto;
+}
+
+.header-cont {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+}
+
+.footerhighlight{
+  position: fixed;
+  left: 12.5%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 75%;
+  background-color: rgba(155, 148, 140, 0.35);
+  height: 5.25%;
+  bottom: 0px;
+  padding-right: 3px;
+}
+
+.footertext{
+  /*background: url("images/footer.png") no-repeat center;*/
+  bottom: 0px;
+  height: 100%;
+}
+
+.navlinks{
+  color: #DBD9D7;
+  font-size: 125%;
+  padding-top: 0.75%;
+  text-align: center;
+}
+
+.current-page{
+  text-shadow: 0 0 30px white;
+}
+
+.copyright{
+  color: #DBD9D7;
+  font-size: 60%;
+  text-align: center;
+}
+
+a{
+  display: inline;
+  color: #DBD9D7;
+  text-decoration: none;
+}
+
+a:hover{
+  text-shadow: 0 0 30px white;
+}
+
+/*Scrollbar*/
+.content::-webkit-scrollbar {
+   width: 15px;
+}
+
+.content::-webkit-scrollbar * {
+  background: transparent;
+}
+
+.content::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.3); 
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.content::-webkit-scrollbar-thumb {
+  background: #999 !important;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/*Google Maps*/
+#map-canvas {
+  width: 500px;
+  height: 400px;
+}
+
+.sponsor_box{
+  width: 50%;
+  margin: 0 auto;
+  display: inline;
+}
+
+.smedia_box{
+  width: 50%;
+  margin: 0 auto;
+  display: inline;
+}
+
+/*Image Slider Gallery on Home Page*/
+#gallery{
+  width: 50%;
+  height: 50%;
+}
+
+/*Errorboxes for Events page*/
+.errorbox, .errorbox2{
+  color: red;
+  visibility: hidden;
+  text-align: center;
+}
